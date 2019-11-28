@@ -17,6 +17,12 @@ Version 2.0.0 (unreleased)
    `declarations.get_dependencies_from_decl(decl)` function from the
    `declarations` module, which returns the same result.
 
+Version 1.9.2
+-------------
+
+1. Fix bug in ```__lt__``` of [calldef.py](pygccxml/declarations/calldef.py)
+   for ```Python3```.
+
 Version 1.9.1
 -------------
 
